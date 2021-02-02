@@ -10,7 +10,7 @@ body {
   background-color: #000;
   border-radius: 0;
   border: 0;
-  height:100px;
+  
 }
 
 
@@ -40,20 +40,32 @@ body {
   font-size: 1.5em;
   font-family: 'Lora', serif;
   font-weight: bold;
+  clear: both;
 }
 #collapsable-nav{
   color: white;
   background-color: #777;
+  clear: both;
+
+}
+button{
+  clear: both;
+}
+
+.navbar-toggle{
+  top: 25px
+  clear: both;
 }
 #nav-list span{
   text-align: center;
   clear: both;
+  border: 1px solid black;
 }
 
-#navbar-toggle{
-  top: 25px
-}
 
+#main-content{
+  clear: both;
+}
 #item-desc{
   text-align: center;
   background-color: #aaa;

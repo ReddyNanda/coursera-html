@@ -45,6 +45,10 @@ body {
   color: white;
   background-color: #777;
 }
+#nav-list span{
+  text-align: center;
+  clear: both;
+}
 
 #navbar-toggle{
   top: 25px
